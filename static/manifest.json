@@ -1,6 +1,6 @@
 {
-  "name": "Vue-Boilerplate-Template",
-  "short_name": "V B T",
+  "name": "Nice Vue",
+  "short_name": "vue-pwa",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",

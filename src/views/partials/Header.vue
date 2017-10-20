@@ -2,7 +2,7 @@
   <header class="header">
     <h1 class="logo">
       <a href="javascript:;">
-        <img src="../../assets/images/logo.png" alt="vue-boilerplate-template">
+        <img src="../../assets/images/logo.png" alt="dji">
         <span class="title">{{ $t('projectTitle') }}</span>
       </a>
     </h1>
