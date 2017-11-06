@@ -49,8 +49,7 @@ export default {
     for (let key in query) {
       str.push(key + '=' + query[key])
     }
-    let paramStr = str.join('&')
-    return paramStr ? `${url}?${paramStr}` : url
+    return url + '?' + str.join('&')
   },
 
   /* -----------------------------localStorage------------------------------------ */
