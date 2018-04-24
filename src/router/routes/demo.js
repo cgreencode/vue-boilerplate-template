@@ -4,7 +4,7 @@ import { $utils } from '@helper'
 export default [{
   path: '/demo',
   component: Frame,
-  fullpath: 'demo',
+  name: 'demo',
   // isHideInMenu: true,
   meta: {
     title: $utils.titleLang('示例模块', 'Demo Moudle')
@@ -12,7 +12,7 @@ export default [{
   children: [
     {
       path: 'form',
-      fullpath: '/demo/form',
+      name: 'demo_form',
       isHideInMenu: false,
       meta: {
         title: $utils.titleLang('示例表单', 'Demo Form'),
@@ -22,7 +22,7 @@ export default [{
     },
     {
       path: 'list',
-      fullpath: '/demo/list',
+      name: 'demo_list',
       meta: {
         title: $utils.titleLang('示例列表', 'Demo  List'),
         ignoreAuth: true

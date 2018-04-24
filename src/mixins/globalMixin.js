@@ -21,11 +21,6 @@ Vue.mixin({
     ...mapActions([
       '$getUserInfo',
       '$setMenuList'
-    ]),
-
-    $triggerSidenav () {
-      let app = document.getElementById('app')
-      app.className = !app.className ? 'menu-expand' : ''
-    }
+    ])
   }
 })
